@@ -1,0 +1,520 @@
+/************************** Common **************************/
+body{
+    margin-top: 0px;
+    padding-top: 18px !important;
+    line-height: normal !important;
+}
+a:hover{
+    text-decoration: underline !important;
+}
+th {
+    text-align: left;
+}
+hr{
+    height: 1px !important;
+    color: #cccccc !important;
+    background-color: #cccccc !important;
+    border: 0 !important;
+}
+.block{
+    border-top-width: 0;
+}
+
+#intro.generalbox{
+    margin-top:0;
+}
+
+/************************** Header **************************/
+.block .header, .block h2.header{
+    padding: 2px 4px 0 4px;
+    margin: 0;
+}
+h2.headingblock{
+    margin: 0;
+    border: 0;
+}
+/** .header class exists in head and content **/
+
+/* no color on startpage */
+#page-front-right .header{
+    background-color: transparent !important;
+}
+.header a{
+    /*color: #FFFFFF !important;*/
+}
+th.header a{
+    border-bottom: 1px dotted #FFFFFF;
+}
+#show_header{
+    display: none;
+    font-size: 13px;
+}
+#pageheader{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    border: 0 !important;
+    width: 100% !important;
+    max-width: 1720px;
+}
+#pageheader-top-left{
+    float: left;
+    width: 300px;
+    margin-left: 16px;
+    font-size: 13px;
+}
+#pageheader-top-right{
+    float: right;
+    margin-right: 20px;
+    font-size: 13px;
+}
+#pageheader-top-left{
+    padding-top: 6px;
+    padding-bottom: 10px;
+}
+#pageheader-top-right{
+    padding-bottom: 12px;
+}
+#pageheader-middle-left{
+    float: left;
+    min-height: 68px;
+    margin-left: 20px;
+}
+#pageheader-middle-right{
+    min-height: 68px;
+    background-color: #0164a7;
+    margin-left: 218px;
+    margin-right: 20px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+#pageheader-middle-right h1{
+    margin: 0;
+    padding: 8px 8px 8px 6px;
+    color: #FFFFFF;
+    font-size: 150%;
+}
+#pageheader-middle-right h1.page-front{
+    padding-left: 17px;
+}
+
+
+header{
+  margin: 10px 0 4px 0 !important;
+}
+
+.yyyyyyy{
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+
+/************************** Frontpage **************************/
+/* mypage #block-region-content .block */
+#box_block_float .block{
+    float: left;
+    border-top-width: 1px;
+    padding: 0;
+    margin: 0 19px 19px 0 !important;
+    height: 256px;
+    width: 256px;
+}
+
+
+#box_block_float .title, #box_block_float h2{
+  font-weight: bold;
+  text-transform:none;
+}
+
+#box_block_float p{
+  padding: 0 6px 0 6px
+}
+
+#box_block_float .block-hider-hide, #box_block_float .moveto{
+  display: none;
+}
+
+ .title{
+  padding-top: 10px;
+  display: block;
+  color: #0164A7 !important;
+}
+#box_block_float span.title{
+  padding-top: 12px;
+  display: block;
+}
+
+
+.navbar{
+    margin: 0.7em 5px 0.6em 5px;
+}
+.navbar, .navbar .breadcrumb{
+    background: none;
+    border: 0 !important;
+}
+#TOOLREF, #TOOLREF ul{
+    margin: 0;
+    padding: 0;
+}
+#TOOLREF li{
+    padding:0;
+    margin:0;
+    border:0;
+    border-right: 1px solid #4C4C4C;
+    padding: 0px 3px 0px 3px;
+    height: 12px;
+    list-style-type: none;
+    float: left;
+    line-height: 13px;
+}
+#TOOLREF li a{
+    display: block;
+    border:0;
+}
+#TOOLREF li.lastItem {
+    border-right: none;
+}
+
+
+/************************** Footernt) **************************/
+#page-footer{
+  border: 0;
+}
+
+
+/************************** AAI Login (only for Swiss Universities relevant) **************************/
+#pageheader-top-right-front .logininfo{
+    float: left;
+    display:block;
+    border: 1px solid black !important;
+    
+}
+#wayf_logo_div, #wayf_intro_label{
+    display: none;
+}
+#wayf_div,#user_idp {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 1px !important;
+}
+#user_idp{
+    float: left;
+    width: 155px !important;
+    height: 20px !important;
+    font-size: 12px;
+    margin-top: 1px !important;
+    vertical-align: top !important;
+    border: 1px solid #dddddd !important;
+}
+/*** only IE7 ***/
+* + html #pageheader-top-right{
+    width: 236px;
+}
+#wayf_submit_button{
+    font-size: 10px !important;
+    margin: 0 0 0 4px !important;
+    height: 20px !important;
+    vertical-align: top !important;
+}
+#wayf_div input[type="submit"]{
+      padding: 0 4px 0 4px !important;
+}
+
+/************************** My Home Page **************************/
+#page-my-index #region-main .block {
+    border-top-width: 1px;
+    margin-bottom: 19px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: auto;
+    padding: 0;
+}
+#page-my-index .block_rss_client .list li{
+   /* font-size: 1em;*/
+}
+#page-my-index .list_block a:visited, #page-my-index .block_rss_client a:visited {
+    color: #4488b6;
+}
+
+#page-my-index h2{
+    /*font-size: 1em !important;*/
+}
+.block_course_overview .content{
+    margin:0;
+}
+.block_course_overview .coursebox{
+    padding:10px;
+    margin-bottom: 4px;
+}
+
+/************************** Common **************************/
+.cleaner{
+    vertical-align: top;
+    clear: both;
+    height: 0.1px;
+    font-size: 0.1px;
+    margin: 0;
+    border: 0px none;
+    padding: 0;
+    overflow: hidden;
+}
+.inv{
+	position: absolute;
+	left: -1000px;
+	top: -1000px;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+	margin-bottom: -0.2em;
+	display: inline;
+}
+
+/* border for <table class="border"> */
+table.border td {
+    border: 1px solid #aaaaaa;
+    margin: 0;
+    padding: 3px;
+}
+table.border{
+    border-collapse: collapse;
+}
+
+
+/************************** 2.7 content adjustments **************************/
+/* smaller font size on course overview */
+#page-my-index h2 a{
+  font-size: 22px !important;
+}
+#dock .dockeditem_container {
+  margin-top: 138px;
+}
+
+
+
+/************************** Specal Calendar highlighting week numbers **************************/
+#calendar_kw {
+  text-align: center;
+}
+#calendar_kw table{
+  padding:0;
+  border:0;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+#calendar_kw table thead th.weekday{ 
+  font-size: 11px; 
+  text-align: center;
+  border: solid #eee 2px;
+  border-bottom-width:0px;
+  background-color: #ccc;
+}
+#calendar_kw table tbody td{
+  padding:1px;
+  width: 19px;
+  height: 22px;
+  text-align: center;
+  font-family: "Arial Black", Arial;
+  font-weight: bold;
+  line-height: 0.9em;
+  text-align: center;
+  border: solid #eee 2px;
+  border-top-width:0px;
+  background-color: #fff;
+}
+#calendar_kw table tfoot td {
+  border: none;
+}
+#calendar_kw td.calendar_week, #calendar_kw td.calendar_month {
+  font-family: "arial";
+  font-weight: normal;
+  padding:2px;
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  border-top-width: 0px;
+  border: solid #eee 2px;
+  background-color: #eee;
+}
+#calendar_kw td.calendar_week{
+  font-family: "Arial Black", Arial;
+  padding: 4px;
+  font-weight: bold;
+  font-size: 13px;
+}
+#calendar_kw table tbody tr td{
+  color: #c5c5c5;
+}
+#calendar_kw table tbody td.today{
+  color:blue;
+}
+#calendar_kw table tbody tr{
+  /*display:none;*/
+}
+#calendar_kw tr.active td{
+  /*display:table-row;*/
+  color: #000;
+}
+#calendar_kw tr td.weekend{
+  color:#ffabab;
+}
+#calendar_kw tr.active td.weekend{
+  color:red;
+}
+#calendar_kw tr td.next_month{
+  color:#ddd;
+}
+#calendar_kw tr.active td.next_month{
+  color:#ddd;
+}
+#calendar_kw td.prev{
+  font-family: "arial";
+  text-align: left;
+}
+#calendar_kw td.next{
+  font-family: "arial";
+  text-align: right;
+}
+
+
+
+
+/************************** Colors for all Departements **************************/
+/* Left */
+a:link, a:hover, a:visited, a:active, span.flagged-tag a{
+    color: #0164A7;
+}
+.box span.flagged-tag{
+    color: #0164A7 !important;
+}
+/* Tags */
+.tag-heading span.flagged-tag, .tag-heading span.flagged-tag a {
+    color: #FFFFFF;
+}
+span.flagged-tag {
+    /* not withe because block right */
+    color: #0164A7;
+}
+
+
+
+/************************** 1 Column (before fluid.css) **************************/
+@media only screen and (max-width:767px) {
+#pageheader {
+    float:none;
+    width: 100%;
+}
+#page-content {
+    float:none;
+    min-width:0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+#page-content #region-main-box {
+    float:none;
+    left:0;
+    position: relative;
+    width: 100%;
+}
+#page-content #region-post-box {
+    float:none;
+    left:0;
+    margin-left:0 !important;
+    width: 100%;
+}
+#page-content #region-main-wrap {
+    float:none;
+    width: 100%;
+    right:auto;
+}
+#page-content #region-main {
+    margin-left:0 !important;
+    margin-right: 0 !important;
+    overflow: hidden;
+}
+#page-content #region-pre {
+    float:none;
+    left:0;
+    margin-left:0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+#page-content #region-post {
+    float:none;
+    left: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.navbutton {
+    text-align: left;
+    float: left;
+
+}
+#helppopupbox{
+    width: 250px !important;
+}
+
+
+/*** only for frontpage and header ***/
+.notfrontpage #pageheader-top-left,
+.notfrontpage #pageheader-top-right,
+.notfrontpage #pageheader-middle-left,
+.notfrontpage #pageheader-middle-middle
+{
+    display: none !important;
+}
+
+#show_header{
+    display: block;
+}
+
+#page-front, #page-front-wrapper, #page-front-left, #page-front-right, #pageheader-top-left, #pageheader-middle-left{
+    float:none !important;
+    left: 0 !important;
+    overflow: hidden !important;
+    margin:0 !important;
+}
+
+#pageheader-middle-right{
+    margin-top: 12px;
+    margin-left: 0px;
+}
+.notfrontpage #pageheader-middle-right{
+    margin-top: 10px;
+    min-height: 20px;
+}
+.notfrontpage #pageheader-middle-right h1{
+    padding:0 0 0 15px;
+    font-size: 120%;
+}
+#pageheader-top-right {
+    float: left !important;
+}
+
+#pageheader-top-left{
+    margin-left: -4px !important;
+}
+
+#pageheader-top-right, #pageheader-middle-left, #pageheader-middle-right{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.notfrontpage #pageheader-middle-left{
+  margin-bottom: 14px !important;
+}
+
+/*** my home ***
+#page-my-index #region-main .block {
+    float:none;
+    margin-bottom: 10px;
+    padding: 0;
+    height: auto;
+}
+*/
+}
