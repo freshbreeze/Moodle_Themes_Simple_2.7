@@ -29,4 +29,4 @@ $plugin->version   = 2014071000;
 $plugin->requires  = 2014050800;
 $plugin->component = 'theme_simple';
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '1.7';
+$plugin->release   = '1.8';
