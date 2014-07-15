@@ -177,7 +177,7 @@ header{
 }
 
 
-/************************** Footernt) **************************/
+/************************** Footer **************************/
 #page-footer{
   border: 0;
 }
@@ -247,6 +247,9 @@ header{
 .block_course_overview .coursebox{
     padding:10px;
     margin-bottom: 4px;
+}
+.moodle-actionmenu[data-enhanced].show .menu.align-tr-br {
+  top: 100% !important;
 }
 
 /************************** Common **************************/

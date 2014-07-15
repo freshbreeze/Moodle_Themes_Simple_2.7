@@ -23,17 +23,16 @@ a) create folder new templat folder e.g. name: xyz, color: #E0922E
 
 b) create xyz/config.php
 $THEME->name = 'xyz';
-$THEME->parents = array('simple','standard','base');
+$THEME->doctype = 'html5';
+$THEME->parents = array('simple','bootstrapbase');
 $THEME->sheets = array('skin');
+$THEME->yuicssmodules = array();
+$THEME->editor_sheets = array();
+$THEME->rendererfactory = 'theme_overridden_renderer_factory';
 $THEME->enable_dock = true;
 
 c) create xyz/style/skin.css
-.color_dept,
-.header,
-#page-mod-quiz-edit .questionbankwindow div.header,
-#page-header-middle-right,
-#dockeditempanel .dockeditempanel_hd,
-h2.main{
+#pageheader-middle-right{
     background-color: #E0922E !important;
 }
 
@@ -41,4 +40,4 @@ d) create xyz/pix/logo.png
 
 e) create xyz/pix/screenshot.png
 
-More infos about Moodle Themes: http://docs.moodle.org/dev/Themes_2.0
+More infos about Moodle Themes: http://docs.moodle.org/dev/Themes
