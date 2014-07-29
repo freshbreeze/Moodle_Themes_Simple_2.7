@@ -248,8 +248,14 @@ header{
     padding:10px;
     margin-bottom: 4px;
 }
+
+
+/*** My Home Page - Content ***/
 .moodle-actionmenu[data-enhanced].show .menu.align-tr-br {
   top: 100% !important;
+}
+.collapsibleregioncaption{
+ white-space:normal;
 }
 
 /************************** Common **************************/
@@ -285,7 +291,7 @@ table.border{
 }
 
 
-/************************** 2.7 content adjustments **************************/
+/************************** 2.7 content adjustments (overwrite bootstrapbase) **************************/
 /* smaller font size on course overview */
 #page-my-index h2 a{
   font-size: 22px !important;
@@ -293,7 +299,30 @@ table.border{
 #dock .dockeditem_container {
   margin-top: 138px;
 }
+/* test /mod/assign/view.php?id=428280&action=grading */
+#page-mod-assign-view .no-overflow {
+  overflow: visible !important;
+}
 
+/* test /mod/workshop/view.php?id=399335 */
+#page-mod-workshop-view .row-fluid {
+  width: 1400px !important; /* 100% */
+}
+@media (max-width: 767px){
+  #page-mod-workshop-view .row-fluid {
+    width: 1100px !important; /* 100% */
+  }
+}
+@media (max-width: 979px) and (min-width: 768px){
+  #page-mod-workshop-view .row-fluid {
+    width: 1400px !important; /* 100% */
+  }
+}
+@media (min-width: 1200px){
+  #page-mod-workshop-view .row-fluid {
+    width: 1400px !important; /* 100% */
+  }
+}
 
 
 /************************** Specal Calendar highlighting week numbers **************************/
