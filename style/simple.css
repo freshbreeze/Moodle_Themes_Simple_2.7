@@ -103,12 +103,6 @@ header{
   margin: 10px 0 4px 0 !important;
 }
 
-.yyyyyyy{
-  margin: 0 !important;
-  padding: 0 !important;
-  border: 0 !important;
-}
-
 
 /************************** Frontpage **************************/
 /* mypage #block-region-content .block */
@@ -322,6 +316,42 @@ table.border{
   #page-mod-workshop-view .row-fluid {
     width: 1400px !important; /* 100% */
   }
+}
+/* test /mod/choice/report.php?id=282227 */
+#page-mod-choice-report tr, #page-mod-choice-report th, #page-mod-choice-report td{
+  border: 1px solid #ccc;
+}
+#page-mod-choice-report th{
+  background-color: #f5f5f5;
+}
+
+.course-content .current {
+  background-color: #f5f5f5;
+}
+
+
+/* adjust title left in course format weeks and section */
+.course-content ul.weeks li.section .left, .course-content ul.topics li.section .left{
+  width: 0;
+}
+.section .activity .mod-indent-outer {
+  padding-left: 0;
+}
+.section .yui3-dd-drop .mod-indent-outer{
+  padding-left: 30px;
+}
+/* adjust summary and Icons in course format weeks and section */
+#page-course-view-weeks .course-content ul.topics li.section .summary,
+#page-course-view-topics .course-content ul.topics li.section .summary,
+#page-course-view-weeks .course-content ul.section,
+#page-course-view-topics .course-content ul.section{
+  margin-left: 0 !important;
+}
+#page-course-view-weeks .section .activity .editing_move, #page-course-view-topics .section .activity .editing_move {
+  left: 0;
+}
+.course-content ul.topics li.section .summary {
+  margin-left: 25px;
 }
 
 
