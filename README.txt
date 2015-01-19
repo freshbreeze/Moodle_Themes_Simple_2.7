@@ -1,4 +1,4 @@
-Version 1.7 for Moodle 2.7
+Version 1.9 for Moodle 2.7 (Build: 20150119) and above
 
 For Moodle 2.1 - 2.3 visite: https://github.com/freshbreeze/Moodle_Themes_Simple_2.2
 For Moodle 2.4 - 2.6 visite: https://github.com/freshbreeze/Moodle_Themes_Simple_2.4
